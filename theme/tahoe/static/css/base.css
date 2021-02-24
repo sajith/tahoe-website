@@ -1,0 +1,27 @@
+* {
+    box-sizing: border-box;
+}
+
+html, body {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background: #f8f8f8;
+    font-family: "Inter", sans-serif;
+    font-weight: 400;
+    line-height: 1.6em;
+    font-size: 18px;
+
+    background: #fff;
+    color: #666;
+    border-top: 0.2em solid #d95c3a;
+}
+
+#wrapper {
+    background: #fff;
+    margin: 0 auto;
+    padding: 60px 75px;
+}
+
