@@ -36,11 +36,18 @@
 
   <body id="index" class="home">
     <div id="wrapper">
-      
+
+      {# banner #}
       <header id="banner" class="body">
-        <img src="{{ SITEURL }}/theme/images/tahoe-logo.png" />
-        <h1><a href="{{ SITEURL }}/">{{ SITENAME }}{% if SITESUBTITLE %} <strong>{{ SITESUBTITLE }}</strong>{% endif %}</a></h1>
-      </header><!-- /#banner -->
+        <a href="{{ SITEURL }}/">
+          <img src="{{ SITEURL }}/theme/images/tahoe-logo.png" />
+          {# {{ SITENAME }} #}
+          {% if SITESUBTITLE %} 
+            <strong>{{ SITESUBTITLE }}</strong>
+          {% endif %}
+       </a>
+      </header>
+      {# end banner #}
 
       {# navigation #}
       <nav id="menu">
