@@ -7,7 +7,7 @@ SITEURL = ''
 
 PATH = 'content'
 
-TIMEZONE = 'EST'
+TIMEZONE = 'UTC'
 
 THEME = 'theme/tahoe'
 
