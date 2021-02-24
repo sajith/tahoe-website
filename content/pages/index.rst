@@ -20,7 +20,7 @@ Get Involved
 
 - Join the tahoe-dev_ mailing list and subscribe to tahoe-announce_
 - Join the #tahoe-lafs IRC channel on Freenode
-- Get the source code and start hacking_.
+- Get the `source code`_ and start hacking_.
 
 
 Read Some Nice Docs
@@ -36,6 +36,7 @@ Read Some Nice Docs
 
 .. _tahoe-dev: https://tahoe-lafs.org/cgi-bin/mailman/listinfo/tahoe-dev  
 .. _tahoe-announce: https://tahoe-lafs.org/cgi-bin/mailman/listinfo/tahoe-announce
+.. _source code: https://github.com/tahoe-lafs/tahoe-lafs/
 .. _hacking: https://tahoe-lafs.org/trac/tahoe-lafs/wiki/Dev
 
 .. _install: http://tahoe-lafs.readthedocs.org/en/latest/INSTALL.html
