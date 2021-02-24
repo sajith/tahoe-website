@@ -18,13 +18,11 @@ body {
 
 #wrapper {
     background: #fff;
-    width: 800px;
-    margin: 0 auto;
-    padding: 60px 75px;
+    padding: 60px 80px;
+    margin: 0 auto 0 auto;
 }
 
 nav {
-    /* text-align: center; */
     border-top: 1px solid #e2e2e2;
     border-bottom: 1px solid #e2e2e2;
 }
@@ -54,4 +52,17 @@ footer {
     font-style: italic;
     padding: 1em 0;
     border-top: 1px solid #e2e2e2;
+}
+
+
+@media screen and (min-width: 1024px) {
+    #wrapper {
+        max-width: 800px;
+    }
+}
+
+@media screen and (max-width: 1024px) {
+    #wrapper {
+        padding: 30px;
+    }
 }
