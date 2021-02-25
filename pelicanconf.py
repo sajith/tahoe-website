@@ -3,7 +3,12 @@
 
 AUTHOR = 'Tahoe-LAFS team'
 SITENAME = 'Tahoe-LAFS'
-SITEURL = ''
+
+# MENUITEMS can't contain relative URLs (see
+# https://github.com/getpelican/pelican/issues/2272), so I need to toggle
+# SITEURL for previewing stuff locally.
+# SITEURL = ''
+SITEURL = 'https://sajith.github.io/tahoe-website'
 
 PATH = 'content'
 
@@ -18,7 +23,7 @@ DEFAULT_LANG = 'en'
 RELATIVE_URLS = True
 
 # Feed generation is usually not desired when developing
-FEED_ALL_ATOM = None
+# FEED_ALL_ATOM = None
 CATEGORY_FEED_ATOM = None
 TRANSLATION_FEED_ATOM = None
 AUTHOR_FEED_ATOM = None
@@ -30,7 +35,7 @@ DISPLAY_CATEGORIES_ON_MENU = False
 ARTICLE_URL = 'posts/{date:%Y}/{date:%m}/{slug}/'
 ARTICLE_SAVE_AS = 'posts/{date:%Y}/{date:%m}/{slug}/index.html'
 
-MENUITEMS = (('News', '/category/news.html'),
+MENUITEMS = (('News', SITEURL + '/category/news'),
              ('Trac', 'https://tahoe-lafs.org/trac/tahoe-lafs'),
              ('GitHub', 'https://github.com/tahoe-lafs/tahoe-lafs'),
              ('Docs', 'https://tahoe-lafs.readthedocs.org'),)
