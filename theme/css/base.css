@@ -59,7 +59,6 @@ nav > ul {
 }
 
 nav > ul > li {
-    /* color: #999; */
     display: inline;
     border-right: 1px solid var(--border-color);
     padding: 0 1em;
