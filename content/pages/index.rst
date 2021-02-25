@@ -10,7 +10,7 @@ distributes your data across multiple servers. Even if some of the
 servers fail or are taken over by an attacker, the entire file store
 continues to function correctly, preserving your privacy and security.
 
-.. image:: ../images/tahoe-architecture.svg
+.. image:: /images/tahoe-architecture.svg
 
 A one-page summary_ explains the unique properties of this system.
 
