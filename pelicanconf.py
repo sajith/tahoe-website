@@ -13,6 +13,10 @@ THEME = 'theme/tahoe'
 
 DEFAULT_LANG = 'en'
 
+# Confusing/dangerous when feeds are involved, but kind of necessary to host
+# stuff on GitHub pages.
+RELATIVE_URLS = True
+
 # Feed generation is usually not desired when developing
 FEED_ALL_ATOM = None
 CATEGORY_FEED_ATOM = None
