@@ -7,6 +7,18 @@
     --border-color: rgb(226, 226, 226);
 }
 
+@media (prefers-color-scheme: dark) {
+    :root {
+        --text-color: #eceff4;
+ 	--text-background-color: #2e3440;
+	--body-background-color: #3b4252;
+	--border-color: #3b4252;
+    }
+    object {
+        background: var(--text-color);
+    }
+}
+
 * {
     box-sizing: border-box;
 }
