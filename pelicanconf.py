@@ -23,7 +23,7 @@ AUTHOR_FEED_RSS = None
 DISPLAY_PAGES_ON_MENU = False
 DISPLAY_CATEGORIES_ON_MENU = False
 
-MENUITEMS = (('News', '/news'),
+MENUITEMS = (('News', '/category/news.html'),
              ('Trac', 'https://tahoe-lafs.org/trac/tahoe-lafs'),
              ('GitHub', 'https://github.com/tahoe-lafs/tahoe-lafs'),
              ('Docs', 'https://tahoe-lafs.readthedocs.org'),)
