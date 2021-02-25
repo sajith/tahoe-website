@@ -3,7 +3,7 @@
 
 AUTHOR = 'Tahoe-LAFS team'
 SITENAME = 'Tahoe-LAFS'
-SITEURL = ''
+SITEURL = 'https://sajith.github.io/tahoe-website/'
 
 PATH = 'content'
 
