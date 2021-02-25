@@ -23,6 +23,9 @@ AUTHOR_FEED_RSS = None
 DISPLAY_PAGES_ON_MENU = False
 DISPLAY_CATEGORIES_ON_MENU = False
 
+ARTICLE_URL = 'posts/{date:%Y}/{date:%m}/{slug}/'
+ARTICLE_SAVE_AS = 'posts/{date:%Y}/{date:%m}/{slug}/index.html'
+
 MENUITEMS = (('News', '/category/news.html'),
              ('Trac', 'https://tahoe-lafs.org/trac/tahoe-lafs'),
              ('GitHub', 'https://github.com/tahoe-lafs/tahoe-lafs'),
