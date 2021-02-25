@@ -1,5 +1,5 @@
-Welcome to The Least-Authority File Store
-=========================================
+The Least-Authority File Store
+==============================
 
 :url:
 :save_as: index.html
@@ -18,8 +18,8 @@ A one-page summary_ explains the unique properties of this system.
 Get Involved
 ------------
 
-- Join the tahoe-dev_ mailing list and subscribe to tahoe-announce_
-- Join the #tahoe-lafs IRC channel on Freenode
+- Join the tahoe-dev_ mailing list and subscribe to tahoe-announce_.
+- Join the #tahoe-lafs IRC channel on Freenode.
 - Get the `source code`_ and start hacking_.
 
 
