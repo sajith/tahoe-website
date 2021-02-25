@@ -1,7 +1,7 @@
 #!/usr/bin/env python
 # -*- coding: utf-8 -*- #
 
-AUTHOR = 'Sajith Sasidharan'
+AUTHOR = 'Tahoe-LAFS team'
 SITENAME = 'Tahoe-LAFS'
 SITEURL = ''
 
