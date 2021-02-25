@@ -1,0 +1,8 @@
+Spam filtering on Trac
+======================
+
+:date: 2014-02-02
+:author: Tahoe-LAFS team
+
+Spam filtering has been enabled on Tahoe-LAFS Trac.  If you have any
+problems with false-positives, please report them on #tahoe-lafs.

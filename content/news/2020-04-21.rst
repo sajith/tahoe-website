@@ -1,0 +1,7 @@
+Tahoe-LAFS v1.15.0rc0 available
+===============================
+
+:date: 2020-04-21
+:author: Tahoe-LAFS team
+
+Tahoe-LAFS v1.15.0rc0 is now available.
